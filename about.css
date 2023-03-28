@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+ul, li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.navbar-nav .nav-item a {
+    margin-right: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.drop-down {
+    position: relative;
+}
+.drop-down ul {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+.dropdown-toggle {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.show li button, .show{
+    color: #C78B8B;
+}
+.search-box {
+    position: relative;
+}
+.search-box input {
+    width: 90%;
+    padding: 12px 12px;
+    border: 1px solid #666;
+    outline: none;
+    border-radius: 15px;
+}
+.search-box i {
+    font-size: 22px;
+    position: absolute;
+    top: 27%;
+    right: 15%;
+    cursor: pointer;
+}
+.redirect {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.container-fluid {
+    padding: 0;
+}
+.banner img {
+    width: 100%;
+}
+/* about */
+
+.aboutus {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.heading {
+    margin-bottom: 80px;
+    color: #C78B8B;
+    font-weight: 700;
+}
+.right {
+    text-align: start;
+    padding: 50px 50px;
+}
+.right .about-heading {
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.right span {
+    font-size: 28px;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+    color: #0E0E0E;
+    margin-bottom: 30px;
+}
+.text-bold {
+    font-size: 28px;
+    font-weight: 600;
+    color: #0E0E0E;
+    margin-bottom: 30px;
+}
+.icon-about {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+.icon-about a {
+    border: 1px solid #000;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-about a:hover {
+    background-color: rgb(208, 208, 208);
+    border: 1px solid #000;
+    transition: all 0.3s ease-in-out;
+}
+/* founder */
+.founders {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.founder-card .founder-name {
+    font-size: 45px;
+    font-weight: 600;
+    color: #C78B8B;
+    margin: 20px 0;
+}
+.founder-card span {
+    font-size: 30px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+
+/* banner-footer */
+
+.banner-footer img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.logo-footer {
+    width: 110px;
+    margin: 40px auto;
+}
+
+/* footer */
+.footer {
+    padding: 0;
+}
+.footer .first {
+    background-color: #FBEFEE;
+    color: #C78B8B;
+    padding: 60px 120px;
+    margin: 0;
+}
+.contact .footer-heading, 
+.address .footer-heading,
+.connect .footer-heading {
+    font-size: 25px;
+    font-weight: 700;
+}
+.text {
+    margin: 0;
+}
+.address, .connect {
+    text-align: center;
+}
+.address .footer-heading {
+    font-size: 25px;
+    font-weight: 700;
+}
+.connect .icon-connect {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.icon-connect a {
+    width: 41px;
+    height: 41px;
+    border: 1px solid #C78B8B;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-connect a:hover {
+    border: 1px solid #C78B8B;
+    background-color: #fff;
+    transition: all 0.3s ease-in;
+}
+.second {
+    background-color: #C78B8B;
+    color: #fff;
+    padding: 40px 120px;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+.second .text a {
+    color: #fff;
+    text-decoration: underline;
+}
